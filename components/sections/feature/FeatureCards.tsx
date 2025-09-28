@@ -5,7 +5,7 @@ import FeatureCard from '../../sections/feature/FeatureCard';
 export default function FeatureCards() {
   return (
     <div>
-      {featureCards.map((card) => (
+      {featureCards.map(card => (
         <FeatureCard
           key={card.id}
           icon={card.icon}

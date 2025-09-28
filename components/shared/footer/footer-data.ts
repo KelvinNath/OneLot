@@ -9,7 +9,7 @@ export interface NavigationLink {
 export interface SocialMediaLink {
   name: string;
   href: string;
-  icon: any;
+  icon: React.ComponentType<{ className?: string }>;
 }
 
 export const navigationLinks: NavigationLink[] = [
@@ -23,11 +23,11 @@ export const socialMediaLinks: SocialMediaLink[] = [
   {
     name: 'Instagram',
     href: 'https://instagram.com/onelot',
-    icon: Instagram
+    icon: Instagram,
   },
   {
     name: 'Facebook',
     href: 'https://facebook.com/onelot',
-    icon: Facebook
-  }
+    icon: Facebook,
+  },
 ];

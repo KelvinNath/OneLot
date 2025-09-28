@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -43,4 +43,3 @@ body {
     animation: scroll 15s linear infinite;
   }
 }
-

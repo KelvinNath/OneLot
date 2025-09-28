@@ -3,25 +3,23 @@ import Button from '../../ui/Button';
 
 export default function GettingStarted() {
   return (
-    <section className="py-16 lg:py-20 ">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center text-center space-y-6 lg:space-y-8">
+    <section className='py-16 lg:py-20 '>
+      <div className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='flex flex-col items-center text-center space-y-6 lg:space-y-8'>
           {/* Title */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900'>
             Get started today
           </h2>
 
           {/* Description */}
-          <p className="text-base md:text-lg text-gray-600 max-w-3xl leading-relaxed">
-            We look forward to serving the needs of used car dealers across the Philippines and helping them thrive in this dynamic market.
+          <p className='text-base md:text-lg text-gray-600 max-w-3xl leading-relaxed'>
+            We look forward to serving the needs of used car dealers across the
+            Philippines and helping them thrive in this dynamic market.
           </p>
 
           {/* CTA Button */}
           <div>
-            <Button 
-              text="Inquire now"
-              className="px-6 py-4 text-base"
-            />
+            <Button text='Inquire now' className='px-6 py-4 text-base' />
           </div>
         </div>
       </div>
