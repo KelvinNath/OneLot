@@ -4,7 +4,7 @@ import FinancingImage from './FinancingImage';
 
 export default function Financing() {
   return (
-    <section className="py-20 bg-[#f5f5f5]">
+    <section className="py-20 bg-[#f5f5f5] mb-0">
       <div className="flex flex-col lg:flex-row ">
         {/* Image - Left side on desktop, bottom on mobile */}
         <div className="w-full lg:w-1/2  order-2 lg:order-1">
