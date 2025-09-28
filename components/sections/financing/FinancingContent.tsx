@@ -37,6 +37,8 @@ export default function FinancingContent() {
           </div>
         ))}
       </div>
+       {/* Divider */}
+       <div className="border-t border-gray-200 my-6"></div>
       
       {/* CTA Text */}
       <p className="text-gray-600 leading-relaxed text-base lg:text-lg pt-4">

@@ -18,8 +18,8 @@ export const featureCards: FeatureCard[] = [
     title: 'Dealer Loans',
     highlight: 'Accelerate your growth with tailored loan solutions',
     description: 'Get comprehensive car financing solutions, unlock the potential of your dealership and take it to new heights.',
-    iconColor: 'bg-blue-100 text-blue-600',
-    highlightColor: 'text-blue-600'
+    iconColor: 'bg-[#D5EEF0] text-[#6BCDD7]',
+    highlightColor: 'text-[#6BCDD7]'
   },
   {
     id: 'dealership-management',

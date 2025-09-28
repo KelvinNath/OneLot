@@ -4,14 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import dynamic from 'next/dynamic';
 import Footer from "@/components/shared/footer/Footer";
-
-// Dynamic import for Header
-const Header = dynamic(() => import('@/components/shared/header/Header'), {
-  loading: () => (
-    <div className="h-16 bg-white shadow-sm border-b border-gray-200 animate-pulse" />
-  ),
-  ssr: true
-});
+import Header from "@/components/shared/header/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

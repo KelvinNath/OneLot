@@ -3,7 +3,7 @@ import Button from '../../ui/Button';
 
 export default function GettingStarted() {
   return (
-    <section className="py-16 lg:py-20 bg-white">
+    <section className="py-16 lg:py-20 ">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center space-y-6 lg:space-y-8">
           {/* Title */}

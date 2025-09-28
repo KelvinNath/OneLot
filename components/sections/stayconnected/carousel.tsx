@@ -26,7 +26,7 @@ export default function Carousel({ items, className = "" }: CarouselProps) {
             />
           </div>
         ))}
-        {/* Second set of images for seamless loop */}
+        {/* Second set of images */}
         {items.map((item) => (
           <div key={`second-${item.id}`} className="flex-shrink-0 w-80 h-100 rounded-lg shadow-md overflow-hidden">
             <Image
@@ -38,7 +38,7 @@ export default function Carousel({ items, className = "" }: CarouselProps) {
             />
           </div>
         ))}
-        {/* Third set of images for smoother infinite effect */}
+        {/* Third set of images */}
         {items.map((item) => (
           <div key={`third-${item.id}`} className="flex-shrink-0 w-80 h-100 rounded-lg shadow-md overflow-hidden">
             <Image
