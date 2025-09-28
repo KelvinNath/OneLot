@@ -1,37 +1,34 @@
-# 🚗 OneLot - Dealership Management Platform
+# OneLot - Dealership Management Platform
 
 A modern, responsive web application built with Next.js 14+ for dealership management solutions. OneLot provides working capital loans and digital tools to help car dealerships grow and thrive.
 
 ![OneLot Logo](public/assets/header/logo.webp)
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Development Guidelines](#-development-guidelines)
-- [Available Scripts](#-available-scripts)
-- [Testing](#-testing)
-- [Code Quality](#-code-quality)
-- [Error Monitoring](#-error-monitoring)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Development Guidelines](#development-guidelines)
+- [Available Scripts](#available-scripts)
+- [Code Quality](#code-quality)
+- [Deployment](#deployment)
 
-## ✨ Features
+## Features
 
-- **🏠 Hero Section** - Compelling landing page with layered backgrounds
-- **⚡ Feature Showcase** - Highlight key services and benefits
-- **💰 Financing Information** - Detailed loan and financing solutions
-- **🏢 Dealership Management** - Digital tools and platform features
-- **❓ FAQ Section** - Interactive accordion with smooth animations
-- **👥 Customer Testimonials** - Social proof with navigation controls
-- **📱 Stay Connected** - Social media integration with carousel
-- **🚀 Call-to-Action** - Get started section for conversions
-- **📱 Fully Responsive** - Mobile-first design approach
-- **♿ Accessible** - WCAG compliant with proper semantic HTML
+- **Hero Section** - Compelling landing page with layered backgrounds
+- **Feature Showcase** - Highlight key services and benefits
+- **Financing Information** - Detailed loan and financing solutions
+- **Dealership Management** - Digital tools and platform features
+- **FAQ Section** - Interactive accordion with smooth animations
+- **Customer Testimonials** - Social proof with navigation controls
+- **Stay Connected** - Social media integration with carousel
+- **Call-to-Action** - Get started section for conversions
+- **Fully Responsive** - Mobile-first design approach
+- **Accessible** - WCAG compliant with proper semantic HTML
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Core Technologies
 
@@ -51,7 +48,7 @@ A modern, responsive web application built with Next.js 14+ for dealership manag
 - **WebP Images** - Optimized image format
 - **Next.js Image** - Automatic image optimization
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -82,7 +79,7 @@ A modern, responsive web application built with Next.js 14+ for dealership manag
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 onelot/
@@ -138,7 +135,7 @@ onelot/
 └── README.md                   # This file
 ```
 
-## 🎯 Development Guidelines
+## Development Guidelines
 
 ### Architecture Principles
 
@@ -173,7 +170,7 @@ components/sections/[section-name]/
 - **Pre-computed Styles** - Performance optimization
 - **Mobile-First** - Breakpoint-based responsive design
 
-## 📜 Available Scripts
+## Available Scripts
 
 ### Development
 
@@ -193,7 +190,7 @@ npm run format:check # Check if code is formatted
 npm run type-check   # Run TypeScript type checking
 ```
 
-## 🔍 Code Quality
+## Code Quality
 
 ### ESLint Configuration
 
@@ -213,7 +210,7 @@ npm run type-check   # Run TypeScript type checking
 }
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 
