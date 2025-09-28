@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import dynamic from 'next/dynamic';
+import Footer from "@/components/shared/footer/Footer";
 
 // Dynamic import for Header
 const Header = dynamic(() => import('@/components/shared/header/Header'), {
@@ -39,6 +40,7 @@ export default function RootLayout({
       >
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

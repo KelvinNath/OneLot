@@ -20,7 +20,7 @@ export default function GettingStarted() {
           <div>
             <Button 
               text="Inquire now"
-              className="px-2 py-2 text-base md:text-lg"
+              className="px-6 py-4 text-base"
             />
           </div>
         </div>
