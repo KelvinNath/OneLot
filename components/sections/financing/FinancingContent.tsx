@@ -5,7 +5,7 @@ import { financingData } from './financing-data';
 
 export default function FinancingContent() {
   return (
-    <div className='p-6 lg:p-12 space-y-6'>
+    <div className='p-4 lg:p-12 space-y-6'>
       {/* Title */}
       <h2 className='text-3xl lg:text-4xl font-bold text-gray-900'>
         {financingData.title}

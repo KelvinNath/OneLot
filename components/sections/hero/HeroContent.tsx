@@ -12,7 +12,7 @@ export default function HeroContent() {
         </h1>
 
         {/* Description Paragraph */}
-        <p className='text-lg md:text-xl text-gray-500 max-w-3xl'>
+        <p className='text-md md:text-xl text-gray-500 max-w-3xl'>
           We enable dealers to buy more cars through our working capital loan
           solutions and sell cars more efficiently through our Dealership
           Management System with its inventory management, marketing solutions
@@ -20,7 +20,7 @@ export default function HeroContent() {
         </p>
 
         {/* Button */}
-        <div className='pt-4'>
+        <div className='pt-1 pb-4'>
           <Button text='Inquire now' className='px-8 py-4 text-lg' />
         </div>
       </div>
