@@ -7,7 +7,7 @@ import Button from '../../ui/Button';
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200">
+    <header className="bg-white shadow-sm  sticky top-0 z-50">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center h-16">
           {/* Left Section - Logo + OneLot */}
