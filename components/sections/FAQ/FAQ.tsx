@@ -1,5 +1,4 @@
 // components/sections/FAQ/FAQ.tsx
-import { memo } from 'react';
 import { faqData } from './faq-data';
 import FAQItem from './FAQItem';
 import Button from '../../ui/Button';

@@ -7,6 +7,7 @@ import WhyOnelot from '@/components/sections/whyOnelot/WhyOnelot';
 import Testimonials from '@/components/sections/testimonials/Testimonials';
 import StayConnected from '@/components/sections/stayconnected/StayConnected';
 import FAQ from '@/components/sections/FAQ/FAQ';
+import GettingStarted from '@/components/sections/getting-started/GettingStarted';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <StayConnected />
       <FAQ />
+      <GettingStarted />
     </>
   );
 }

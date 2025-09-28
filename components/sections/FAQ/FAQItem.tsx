@@ -44,7 +44,7 @@ const FAQItem = memo(function FAQItem({ item, isLast = false }: FAQItemProps) {
           </div>
         </button>
 
-        {/* Answer Content with Smooth Animation */}
+        {/* Answer Content */}
         <div
           className={`overflow-hidden transition-all duration-300 ease-in-out ${
             isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
