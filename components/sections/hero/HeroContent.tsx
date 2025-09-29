@@ -6,7 +6,7 @@ export default function HeroContent() {
     <div className='container mx-auto px-4 py-16'>
       <div className='flex flex-col items-center text-center space-y-6'>
         {/* H1 Heading */}
-        <h1 className='text-3xl md:text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight'>
+        <h1 className='text-2xl md:text-4xl lg:text-6xl font-black text-gray-900 leading-tight'>
           Grow your dealership with working capital loans and digital tools from
           OneLot
         </h1>
@@ -21,7 +21,7 @@ export default function HeroContent() {
 
         {/* Button */}
         <div className='pt-1 pb-4'>
-          <Button text='Inquire now' className='px-8 py-4 text-lg' />
+          <Button text='Inquire now' className='px-8 py-3 text-lg' />
         </div>
       </div>
     </div>

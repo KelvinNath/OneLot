@@ -23,13 +23,16 @@ export default function HeroImages() {
 
       {/* Image 2 */}
       <div className='container mx-auto px-4 pb-8 text-center'>
-        <Image
-          src='/assets/hero/sec-large.webp'
-          alt='Securities and Exchange Commission'
-          width={200}
-          height={60}
-          className='object-contain mx-auto'
-        />
+        <div className='w-full max-w-[1200px] mx-auto'>
+          <Image
+            src='/assets/hero/sec-large.webp'
+            alt='Securities and Exchange Commission'
+            width={200}
+            height={60}
+            className='object-contain mx-auto w-[30%] sm:w-[6%] md:w-[20%] h-auto'
+            sizes='(max-width: 640px) 20vw, (max-width: 768px) 6vw, 16.67vw'
+          />
+        </div>
       </div>
     </div>
   );
