@@ -27,7 +27,7 @@ const FAQItem = memo(function FAQItem({ item, isLast = false }: FAQItemProps) {
           {/* Question Icon and Text */}
           <div className='flex items-center gap-3 flex-1'>
             <div className='w-6 h-6 bg-gray-500 rounded-full flex items-center justify-center flex-shrink-0'>
-              <span className='text-white text-xs font-bold'>?</span>
+              <span className='text-white text-xs font-black'>?</span>
             </div>
             <span className='text-gray-900 font-semibold text-base md:text-lg'>
               {item.question}

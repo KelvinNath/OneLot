@@ -7,7 +7,7 @@ export default function GettingStarted() {
       <div className='max-w-3xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex flex-col items-center text-center space-y-6 lg:space-y-8'>
           {/* Title */}
-          <h2 className='text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900'>
+          <h2 className='text-2xl md:text-3xl lg:text-4xl font-black text-gray-900'>
             Get started today
           </h2>
 

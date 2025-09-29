@@ -30,7 +30,7 @@ const Card = memo(function Card({
       </div>
 
       {/* Title */}
-      <h3 className='text-lg font-bold text-gray-900'>{title}</h3>
+      <h3 className='text-lg font-black text-gray-900'>{title}</h3>
 
       {/* Description */}
       <p className='text-sm text-gray-600 leading-relaxed'>{description}</p>

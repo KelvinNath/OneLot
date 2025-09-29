@@ -30,7 +30,7 @@ export default function FeatureCard({
         </div>
 
         {/* Title */}
-        <h2 className='text-xl font-bold text-gray-900 leading-tight'>
+        <h2 className='text-xl font-black text-gray-900 leading-tight'>
           {title}
         </h2>
       </div>

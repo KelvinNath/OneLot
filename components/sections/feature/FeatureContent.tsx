@@ -5,7 +5,7 @@ export default function FeatureContent() {
   return (
     <div className='space-y-6'>
       {/* Main Heading */}
-      <h2 className='text-3xl md:text-4xl font-bold text-gray-900 leading-tight'>
+      <h2 className='text-3xl md:text-4xl font-black text-gray-900 leading-tight'>
         Everything you need to grow your business
       </h2>
 

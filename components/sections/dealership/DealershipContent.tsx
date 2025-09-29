@@ -7,7 +7,7 @@ export default function DealershipContent() {
   return (
     <div className='p-4 lg:p-8 space-y-4'>
       {/* Title */}
-      <h2 className='text-3xl lg:text-4xl font-bold text-gray-900'>
+      <h2 className='text-3xl lg:text-4xl font-black text-gray-900'>
         {dealershipData.title}
       </h2>
 
@@ -27,7 +27,7 @@ export default function DealershipContent() {
               <Check className='w-3 h-3 text-purple-600' />
             </div>
             <p className='text-gray-700 text-sm lg:text-base'>
-              <span className='font-bold text-gray-900'>{feature.title}:</span>{' '}
+              <span className='font-black text-gray-900'>{feature.title}:</span>{' '}
               {feature.description}
             </p>
           </div>

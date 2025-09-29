@@ -14,7 +14,7 @@ export default function NotFound() {
         </div>
 
         {/* Error Code */}
-        <h1 className='text-6xl md:text-8xl font-bold text-[#44008a] mb-4'>
+        <h1 className='text-6xl md:text-8xl font-black text-[#44008a] mb-4'>
           404
         </h1>
 
