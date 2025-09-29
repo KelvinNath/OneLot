@@ -36,12 +36,16 @@ export default function FeatureCard({
       </div>
 
       {/* Highlight text */}
-      <p className={`text-md md:text-lg  ${highlightColor} font-medium mb-3 leading-tight`}>
+      <p
+        className={`text-md md:text-lg  ${highlightColor} font-medium mb-3 leading-tight`}
+      >
         {highlight}
       </p>
 
       {/* Description */}
-      <p className='text-gray-600 leading-relaxed text-sm md:text-md'>{description}</p>
+      <p className='text-gray-600 leading-relaxed text-sm md:text-md'>
+        {description}
+      </p>
     </div>
   );
 }
