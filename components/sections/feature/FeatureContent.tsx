@@ -10,7 +10,7 @@ export default function FeatureContent() {
       </h2>
 
       {/* Description */}
-      <p className='text-lg text-gray-600 leading-relaxed'>
+      <p className='text-md md:text-xl text-gray-600 leading-relaxed'>
         OneLot is your trusted lending and financing partner, exclusively
         tailored for used car dealership. We also offer digital tools for
         streamlined operations and growth of your dealership.
