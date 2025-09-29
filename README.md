@@ -130,7 +130,6 @@ onelot/
 ├── tsconfig.json               # TypeScript configuration
 │
 # Documentation & Rules
-├── cursorrules.md              # Development guidelines
 ├── package.json                # Dependencies and scripts
 └── README.md                   # This file
 ```
