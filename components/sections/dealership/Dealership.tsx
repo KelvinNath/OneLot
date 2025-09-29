@@ -4,7 +4,7 @@ import DealershipImage from './DealershipImage';
 
 export default function Dealership() {
   return (
-    <section className='py-12 lg:py-20 bg-[#f5f5f5]'>
+    <section className='py-8 lg:py-16 bg-[#f5f5f5]'>
       <div className='flex flex-col lg:flex-row'>
         {/* Content - Left side on desktop, top on mobile */}
         <div className='w-full lg:w-1/2 order-1 lg:order-1'>

@@ -9,7 +9,7 @@ export default function DealershipImage() {
         alt='OneLot Dealership Management System Dashboard'
         fill
         priority
-        className='object-cover'
+        className='object-contain'
         sizes='(max-width: 1024px) 100vw, 50vw'
       />
     </div>

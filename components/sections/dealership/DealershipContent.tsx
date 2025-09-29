@@ -5,7 +5,7 @@ import { dealershipData } from './dealership-data';
 
 export default function DealershipContent() {
   return (
-    <div className='p-6 lg:p-12 space-y-6'>
+    <div className='p-4 lg:p-8 space-y-4'>
       {/* Title */}
       <h2 className='text-3xl lg:text-4xl font-bold text-gray-900'>
         {dealershipData.title}
@@ -17,10 +17,10 @@ export default function DealershipContent() {
       </p>
 
       {/* First Divider */}
-      <div className='border-t border-gray-200 my-6'></div>
+      <div className='border-t border-gray-200 my-4'></div>
 
       {/* Features List */}
-      <div className='space-y-6'>
+      <div className='md:space-y-6'>
         {dealershipData.features.map(feature => (
           <div key={feature.id} className='flex items-start gap-3'>
             <div className='w-5 h-5 rounded-full bg-purple-100 flex items-center justify-center flex-shrink-0 mt-0.5'>
@@ -35,7 +35,7 @@ export default function DealershipContent() {
       </div>
 
       {/* Second Divider */}
-      <div className='border-t border-gray-200 my-6'></div>
+      <div className='border-t border-gray-200 my-4'></div>
 
       {/* CTA Text */}
       <p className='text-gray-600 leading-relaxed text-base lg:text-lg'>
@@ -43,7 +43,7 @@ export default function DealershipContent() {
       </p>
 
       {/* Button */}
-      <div className='pt-6'>
+      <div className='pt-4'>
         <Button
           text={dealershipData.buttonText}
           showArrow
