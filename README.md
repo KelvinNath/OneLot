@@ -74,7 +74,7 @@ A modern, responsive web application built with Next.js 14+ for dealership manag
 
 ```bash
 npm run dev
-   ```
+```
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
